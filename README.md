@@ -15,7 +15,7 @@ git clone https://github.com/hamdyyemad/Techsouq.git
 ```bash
 cd client
 npm install
-npm run dev
+npm run start
 ```
 ## Technologies
 - qwik.js
