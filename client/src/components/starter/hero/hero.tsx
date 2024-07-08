@@ -24,8 +24,8 @@ export default component$(() => {
           Download CV
         </a>
         <a
-          href="https://qwik.dev/docs"
-          target="_blank"
+          href="mailto:hamdyyemad@aol.com"
+          target="_self"
           class="button button-dark"
         >
           Contact Me
