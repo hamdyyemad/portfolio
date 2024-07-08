@@ -50,6 +50,13 @@ export default component$(() => {
               class="aspect-w-16 aspect-h-12 overflow-hidden bg-gray-100 rounded-2xl"
               style="display:flex; flex-direction:column"
             >
+              <a href="https://postimages.org/" target="_blank">
+                <img
+                  src="https://i.postimg.cc/jqcQ4pPd/project1.png"
+                  border="0"
+                  alt="project1"
+                />
+              </a>
               <source
                 width="2400"
                 height="3000"
