@@ -1,0 +1,208 @@
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.sm\:gap-6 {
+  @media (min-width: 640px) {
+    gap: 1.5rem;
+  }
+}
+
+.md\:gap-8 {
+  @media (min-width: 768px) {
+    gap: 2rem;
+  }
+}
+
+.lg\:gap-12 {
+  @media (min-width: 1024px) {
+    gap: 3rem;
+  }
+}
+
+.group:hover .group-hover\:scale-105 {
+  transform: scale(1.05);
+}
+
+.transition-transform {
+  transition-property: transform;
+}
+
+.duration-500 {
+  transition-duration: 500ms;
+}
+
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-black {
+  color: #000;
+}
+
+.relative {
+  position: relative;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.before\:absolute::before {
+  content: "";
+  position: absolute;
+}
+
+.before\:start-0::before {
+  left: 0;
+}
+
+.before\:-z-\[1\]::before {
+  z-index: -1;
+}
+
+.before\:w-full::before {
+  width: 100%;
+}
+
+.before\:h-1::before {
+  height: 0.25rem;
+}
+
+.before\:transition::before {
+  transition: transform 0.2s ease-in-out;
+}
+
+.before\:origin-left::before {
+  transform-origin: left;
+}
+
+.before\:scale-x-0::before {
+  transform: scaleX(0);
+}
+
+.group-hover\:before\:scale-x-100:hover::before {
+  transform: scaleX(1);
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.sm\:text-sm {
+  @media (min-width: 640px) {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+.width-full {
+  width: 100%;
+}
+img {
+  display: block;
+  max-width: 500px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+h3 {
+  text-align: left;
+  margin-left: auto;
+}
+img {
+  @media (max-width: 640px) {
+    width: 500px;
+    height: 500px;
+  }
+}
+.xs-col-1 {
+  @media (max-width: 950px) {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+.bg-change {
+  background: rgb(81, 2, 157);
+  background: radial-gradient(
+    circle,
+    rgba(81, 2, 157, 1) 41%,
+    rgba(66, 4, 126, 1) 64%
+  );
+}
+.border-gray-200 {
+  border-style: ridge;
+  border-color: rgb(229 231 235);
+  margin-left: 3px;
+}

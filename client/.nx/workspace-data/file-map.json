@@ -1,0 +1,287 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.4.1",
+  "deps": {
+    "@builder.io/qwik": "^1.6.0",
+    "@builder.io/qwik-city": "^1.6.0",
+    "@builder.io/qwik-react": "0.5.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.13.0",
+    "@mui/x-data-grid": "^6.4.0",
+    "@qwik-ui/headless": "^0.4.4",
+    "@qwik-ui/styled": "^0.1.0",
+    "@qwik-ui/utils": "^0.2.1",
+    "@types/eslint": "^8.56.10",
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.2.28",
+    "@types/react-dom": "^18.2.13",
+    "@typescript-eslint/eslint-plugin": "^7.7.1",
+    "@typescript-eslint/parser": "^7.7.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-qwik": "^1.6.0",
+    "nx": "^19.4.1",
+    "prettier": "^3.2.5",
+    "qwik-ui": "^0.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.4.5",
+    "undici": "*",
+    "vite": "^5.2.10",
+    "vite-tsconfig-paths": "^4.2.1"
+  },
+  "pathMappings": {
+    "~/*": [
+      "./src/*"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "my-qwik-basic-starter": [
+        {
+          "file": ".eslintignore",
+          "hash": "8788580605553967678"
+        },
+        {
+          "file": ".eslintrc.cjs",
+          "hash": "16659622349671536439"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "2886366316958850132"
+        },
+        {
+          "file": ".prettierignore",
+          "hash": "18026352017748956344"
+        },
+        {
+          "file": ".vscode/launch.json",
+          "hash": "2125652616757145198"
+        },
+        {
+          "file": ".vscode/qwik-city.code-snippets",
+          "hash": "7944545274723969739"
+        },
+        {
+          "file": ".vscode/qwik.code-snippets",
+          "hash": "12570788749085479650"
+        },
+        {
+          "file": "README.md",
+          "hash": "12532942249427478602"
+        },
+        {
+          "file": "package-lock.json",
+          "hash": "11182808325079716543"
+        },
+        {
+          "file": "package.json",
+          "hash": "16554767688531280048",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "npm:@builder.io/qwik-city",
+            "npm:@builder.io/qwik-react",
+            "npm:@emotion/react",
+            "npm:@emotion/styled",
+            "npm:@mui/material",
+            "npm:@mui/x-data-grid",
+            "npm:@qwik-ui/headless",
+            "npm:@qwik-ui/styled",
+            "npm:@qwik-ui/utils",
+            "npm:@types/eslint",
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:eslint",
+            "npm:eslint-plugin-qwik",
+            "npm:nx",
+            "npm:prettier",
+            "npm:qwik-ui",
+            "npm:react",
+            "npm:react-dom",
+            "npm:typescript",
+            "npm:undici",
+            "npm:vite",
+            "npm:vite-tsconfig-paths"
+          ]
+        },
+        {
+          "file": "public/favicon.svg",
+          "hash": "446107399934622830"
+        },
+        {
+          "file": "public/fonts/poppins-400.woff2",
+          "hash": "6447715655068198684"
+        },
+        {
+          "file": "public/fonts/poppins-500.woff2",
+          "hash": "4442121965380647356"
+        },
+        {
+          "file": "public/fonts/poppins-700.woff2",
+          "hash": "11693702883479235856"
+        },
+        {
+          "file": "public/hamdy-emad-logo.png",
+          "hash": "10187006502229273855"
+        },
+        {
+          "file": "public/hamdyyemad_cv.pdf",
+          "hash": "998196189088790708"
+        },
+        {
+          "file": "public/manifest.json",
+          "hash": "12573047294351719872"
+        },
+        {
+          "file": "public/project1.png",
+          "hash": "10530694753178146691"
+        },
+        {
+          "file": "public/robots.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "qwik-ui.config.json",
+          "hash": "17189465645030050949"
+        },
+        {
+          "file": "qwik.env.d.ts",
+          "hash": "1792037603741036108"
+        },
+        {
+          "file": "src/components/router-head/router-head.tsx",
+          "hash": "1929645756082037698"
+        },
+        {
+          "file": "src/components/starter/contact/contact.module.css",
+          "hash": "5155410033564723186"
+        },
+        {
+          "file": "src/components/starter/contact/contact.tsx",
+          "hash": "5056902745342202115"
+        },
+        {
+          "file": "src/components/starter/footer/footer.module.css",
+          "hash": "12804161691576501035"
+        },
+        {
+          "file": "src/components/starter/footer/footer.tsx",
+          "hash": "13870755022476733676"
+        },
+        {
+          "file": "src/components/starter/header/header.module.css",
+          "hash": "14828399742571482070"
+        },
+        {
+          "file": "src/components/starter/header/header.tsx",
+          "hash": "14692259030751568130"
+        },
+        {
+          "file": "src/components/starter/hero/hero.module.css",
+          "hash": "18016332582173516200"
+        },
+        {
+          "file": "src/components/starter/hero/hero.tsx",
+          "hash": "18381790107217183575"
+        },
+        {
+          "file": "src/components/starter/icons/qwik.tsx",
+          "hash": "5283127105556200343"
+        },
+        {
+          "file": "src/components/starter/icons/qwik2.tsx",
+          "hash": "16335514258776574104"
+        },
+        {
+          "file": "src/components/starter/next-steps/next-steps.module.css",
+          "hash": "17904094104663112185"
+        },
+        {
+          "file": "src/components/starter/next-steps/next-steps.tsx",
+          "hash": "2937633149313912980"
+        },
+        {
+          "file": "src/components/starter/projects/myProjects.css",
+          "hash": "3552117064814781170"
+        },
+        {
+          "file": "src/components/starter/projects/projects.tsx",
+          "hash": "5504497308630803340"
+        },
+        {
+          "file": "src/components/starter/skills/mySkills.css",
+          "hash": "2509254550017667619"
+        },
+        {
+          "file": "src/components/starter/skills/skills.tsx",
+          "hash": "7564592805457763443"
+        },
+        {
+          "file": "src/components/starter/techs/myTechs.css",
+          "hash": "11471406400713353403"
+        },
+        {
+          "file": "src/components/starter/techs/techs.tsx",
+          "hash": "8580094772426337826"
+        },
+        {
+          "file": "src/entry.dev.tsx",
+          "hash": "15859778472158270085"
+        },
+        {
+          "file": "src/entry.preview.tsx",
+          "hash": "18241176629131630768"
+        },
+        {
+          "file": "src/entry.ssr.tsx",
+          "hash": "9127566714885585545"
+        },
+        {
+          "file": "src/global.css",
+          "hash": "10587968073591736228"
+        },
+        {
+          "file": "src/integrations/react/mui.tsx",
+          "hash": "5476127160399042860"
+        },
+        {
+          "file": "src/root.tsx",
+          "hash": "18288164175438917939"
+        },
+        {
+          "file": "src/routes/index.tsx",
+          "hash": "17760507350020426446"
+        },
+        {
+          "file": "src/routes/layout.tsx",
+          "hash": "13409153469062117646"
+        },
+        {
+          "file": "src/routes/react/index.tsx",
+          "hash": "10366435780954833661"
+        },
+        {
+          "file": "src/routes/service-worker.ts",
+          "hash": "7756631822665481529"
+        },
+        {
+          "file": "src/routes/styles.css",
+          "hash": "10821750844148812572"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "6896372378635884482"
+        },
+        {
+          "file": "vite.config.ts",
+          "hash": "5480008556972344085"
+        }
+      ]
+    },
+    "nonProjectFiles": []
+  }
+}
