@@ -19,6 +19,7 @@ export default component$(() => {
         color="purple"
         isQuestion={true}
       />
+
       <div role="presentation" class="ellipsis"></div>
       <div role="presentation" class="ellipsis ellipsis-purple"></div>
       <div class="container container-center container-spacing-xl">
@@ -50,7 +51,10 @@ export default component$(() => {
       <div role="presentation" class="ellipsis"></div>
       <div role="presentation" class="ellipsis ellipsis-purple"></div>
 
-      <div class="container container-center container-spacing-xl">
+      <div
+        class="container container-center container-spacing-xl"
+        style="padding-left:0"
+      >
         <Techs />
         <div role="presentation" class="ellipsis"></div>
         <div role="presentation" class="ellipsis ellipsis-purple"></div>

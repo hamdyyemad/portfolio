@@ -54,8 +54,14 @@ header {
   color: var(--qwik-light-blue);
 }
 
-@media (min-width: 850px) {
+@media (min-width: 690px) {
   .header li {
     display: inline-block;
+  }
+}
+@media (max-width: 600px) {
+  header {
+    width: 70%;
+    margin-right: auto;
   }
 }

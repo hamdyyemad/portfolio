@@ -238,6 +238,7 @@ dd {
 .xs-hidden {
   @media (max-width: 640px) {
     display: none;
+    background: none;
   }
 }
 .xs-full-width {
