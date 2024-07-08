@@ -43,6 +43,7 @@
 }
 
 .button-group {
+  margin-top: 5px;
   display: flex;
   flex-direction: row;
   gap: 24px;
