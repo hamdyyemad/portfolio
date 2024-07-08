@@ -7,7 +7,7 @@ const features = [
     name: "Techsouq",
     description: "Multlingual E-commerce Website",
     tags: ["MERN", "Redux", "Tailwindcss"],
-    img_src: "/prject1.webp",
+    img_src: "/project1.webp",
     repo_link: "https://github.com/hamdyyemad/Techsouq",
     website_link: "https://techsouq.vercel.app",
   },
