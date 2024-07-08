@@ -7,7 +7,7 @@ const features = [
     name: "Techsouq",
     description: "Multlingual E-commerce Website",
     tags: ["MERN", "Redux", "Tailwindcss"],
-    img_src: "/project1.webp",
+    img_src: "https://i.postimg.cc/jqcQ4pPd/project1.png",
     repo_link: "https://github.com/hamdyyemad/Techsouq",
     website_link: "https://techsouq.vercel.app",
   },
@@ -52,19 +52,14 @@ export default component$(() => {
             >
               <a href="https://postimages.org/" target="_blank">
                 <img
-                  src="https://i.postimg.cc/jqcQ4pPd/project1.png"
-                  border="0"
-                  alt="project1"
+                  width="2400"
+                  height="3000"
+                  class="group-hover:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl"
+                  src={feature.img_src}
+                  alt={feature.name}
                 />
               </a>
-              <source
-                width="2400"
-                height="3000"
-                class="group-hover:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl"
-                src={feature.img_src}
-                type="image/webp"
-                // alt={feature.name}
-              />
+
               <div
                 class="pt-4"
                 style="align-self: start; display:flex; flex-direction:column"
