@@ -1,13 +1,13 @@
 import { component$, useStyles$ } from "@builder.io/qwik";
 import myProjectsStyles from "./myProjects.css?inline";
-import project1 from "/project1.webp";
+// import project1 from "/project1.webp";
 const features = [
   {
     id: "techsouq",
     name: "Techsouq",
     description: "Multlingual E-commerce Website",
     tags: ["MERN", "Redux", "Tailwindcss"],
-    img_src: project1,
+    img_src: "/prject1.webp",
     repo_link: "https://github.com/hamdyyemad/Techsouq",
     website_link: "https://techsouq.vercel.app",
   },
