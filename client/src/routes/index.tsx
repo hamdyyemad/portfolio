@@ -5,7 +5,7 @@ import Skills from "../components/starter/skills/skills";
 import Techs from "../components/starter/techs/techs";
 import Hero from "../components/starter/hero/hero";
 import Projects from "../components/starter/projects/projects";
-import Contacts from "../components/starter/contact/contact";
+// import Contacts from "../components/starter/contact/contact";
 import NextSection from "../components/starter/next-steps/next-steps";
 
 export default component$(() => {

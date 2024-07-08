@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import styles from "./next-steps.module.css";
+// import styles from "./next-steps.module.css";
 interface NextSectionProps {
   text: string;
   textBold: string;
