@@ -14,6 +14,16 @@ export default component$(() => {
           </a>
           <span class={styles.spacer}>|</span>
           <span>Egypt 🇪🇬</span>
+
+          <span class={styles.spacer}>|</span>
+          <a href="https://www.linkedin.com/in/hamdyyemad">
+            <span>Linkedin</span>
+          </a>
+
+          <span class={styles.spacer}>|</span>
+          <a href="https://github.com/hamdyyemad">
+            <span>Github</span>
+          </a>
         </div>
       </div>
     </footer>
