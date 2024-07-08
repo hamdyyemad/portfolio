@@ -115,7 +115,7 @@ li > a > svg {
 /* CONTAINER ------------------------------------ */
 .container {
   margin: 0 auto;
-  width: 75%;
+  width: 70%;
   padding: 30px 40px;
 }
 .container.container-purple {
