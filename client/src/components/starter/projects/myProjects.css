@@ -177,6 +177,7 @@ img {
   width: auto;
   height: auto;
   object-fit: cover;
+  pointer-events: none;
 }
 h3 {
   text-align: left;
