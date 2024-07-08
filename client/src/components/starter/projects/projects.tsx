@@ -50,15 +50,13 @@ export default component$(() => {
               class="aspect-w-16 aspect-h-12 overflow-hidden bg-gray-100 rounded-2xl"
               style="display:flex; flex-direction:column"
             >
-              <a href="https://postimages.org/" target="_blank">
-                <img
-                  width="2400"
-                  height="3000"
-                  class="group-hover:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl"
-                  src={feature.img_src}
-                  alt={feature.name}
-                />
-              </a>
+              <img
+                width="2400"
+                height="3000"
+                class="group-hover:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl"
+                src={feature.img_src}
+                alt={feature.name}
+              />
 
               <div
                 class="pt-4"
