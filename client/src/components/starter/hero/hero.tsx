@@ -17,8 +17,8 @@ export default component$(() => {
       </p>
       <div class={styles["button-group"]}>
         <a
-          href="../../../../public/hamdyyemad_cv.pdf"
-          download="hamdyyemad_cv.pdf"
+          href="https://drive.google.com/file/d/1Jaa_ifZXIqZL5Q_hI-0kbNzWJk74D0C9/view?usp=sharing"
+          target="_blank"
           class="button"
         >
           Download CV
